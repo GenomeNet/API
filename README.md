@@ -31,7 +31,7 @@ install.packages(c("keras", "ggplot2", "tokenizers",
   "Rtsne", "remotes", "microseq", "fs"))
 remotes::install_github("https://github.com/r-tensorflow/wavenet")
 install_tensorflow(version = "2.0.0") #/home/ubuntu/.local/share/r-miniconda
-remotes::install_github("genomenet/deepG", auth_token = "82c89481e1915fe45880bf90d462feadb34bd770")
+remotes::install_github("genomenet/deepG", auth_token = "")
 ```
 
 5. run `sudo Rscript aws_deploy.R`, you then can access the Swagger UI via http://18.192.3.46/__docs__/ (you may need to update the IP) 
