@@ -34,4 +34,4 @@ install_tensorflow(version = "2.0.0") #/home/ubuntu/.local/share/r-miniconda
 remotes::install_github("genomenet/deepG", auth_token = "82c89481e1915fe45880bf90d462feadb34bd770")
 ```
 
-5. run `sudo Rscript aws_deploy.R`
+5. run `sudo Rscript aws_deploy.R`, you then can access the Swagger UI via http://18.192.3.46/__docs__/ (you may need to update the IP) 
