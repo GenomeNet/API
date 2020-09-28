@@ -25,11 +25,11 @@ function(req) {
 					 returnStates = T,
 					 mode = "label",
 					 step = 10000, padding = T)
+	if (file.exists(u_path))
+		file.remove(u_path)
 	return(prediction[,2])
 
 
-	if (file.exists(u_path))
-		file.remove(u_path)
 }
 
 
